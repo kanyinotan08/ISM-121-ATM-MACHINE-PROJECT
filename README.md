@@ -1,7 +1,7 @@
 # ISM-121-ATM-MACHINE-PROJECT
-# ATM Machine Simulator
+# ATM Machine 
 
-A simple command-line ATM machine simulator built with Python for basic banking operations.
+
 
 ## Features
 
@@ -27,15 +27,15 @@ python atm_machine.py
 
 ### Operations
 
-*Deposit* - Add funds to your account
+DEPOSIT - Add funds to your account
 
-*Check Balance* - View current balance
+CHECK BALANCE - View current balance
 
-*Withdraw* - Remove funds (with insufficient funds protection)
+WITHDRAW - Remove funds (with insufficient funds protection)
 
-*Update PIN* - Change your security PIN
+UPDATE PIN - Change your security PIN
 
-Each operation requires PIN verification. After each transaction, you'll be prompted to continue or exit.
+Each operation requires PIN verification. After each transaction, you'll be asked to continue.
 
 ## Example
 
@@ -44,8 +44,8 @@ Enter new account number: 123456
 Set your PIN: 1234
 Account created successfully!
 
-Enter PIN to deposit: 1234
-Enter amount to deposit: 1000
+Enter PIN to deposit: 1122334455
+Enter amount to deposit: 10000000
 Deposit successful. Balance: 1000
 
 Continue? (YES/NO): YES
