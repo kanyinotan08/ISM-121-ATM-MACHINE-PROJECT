@@ -24,16 +24,6 @@ while continue_using == "YES":
     if continue_using != "YES":
         break
 
-        # Check balance
-        entered_pin = input("\nEnter PIN to check balance: ")
-        if entered_pin == pin:
-            print("Your balance is:", balance)
-        else:
-            print("Wrong PIN.")
-
-        continue_using = input ("\nContinue? (YES/NO): ")
-        if continue_using != "YES":
-            break
 
         # Withdraw
     entered_pin = input("\nEnter PIN to withdraw: ")
@@ -60,3 +50,14 @@ while continue_using == "YES":
         print("Wrong PIN.")
 
         continue_using = input("\nContinue? (YES/NO): ")
+        
+        # Check balance
+        entered_pin = input("\nEnter PIN to check balance: ")
+        if entered_pin == pin:
+            print("Your balance is:", balance)
+        else:
+            print("Wrong PIN.")
+
+        continue_using = input ("\nContinue? (YES/NO): ")
+        if continue_using != "YES":
+            break
